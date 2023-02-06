@@ -165,8 +165,11 @@
   .btn {
     min-width: 10rem;
     border-radius: 100px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all 0.2s;
+   
   }
   .btn-primary {
     background: var(--accent);
@@ -336,8 +339,17 @@
     flex-wrap: wrap;
     gap: 15px;
   }
+  .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero .pattern-bg{
+    flex:1;
+  }
   .hero .right {
-    display: none;
+    /* display: none; */
+   
   }
   /*=============== BLOG ===============*/
   .main {
