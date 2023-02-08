@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+     <!--=============== FAVICON ===============-->
+    <!-- <link rel="shortcut icon" href="" type="image/x-icon" /> -->
+
+    <!--=============== Box Icons ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+     <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/style/global.css">
+    <link rel="stylesheet" href="./assets/style/responsive.css">
+</head>
+<body>
+
+  <!--=============== Header ===============-->
+<header>
+    <div class="container header">
+        <a href="#" class="logo">
+            <img src="./assets/img/logo.png" alt="logo" >
+        </a>
+            <!--=============== Navbar ===============-->
+         <!-- <nav class="menu desktop">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+             </ul>
+         </nav> -->
+         <div id="trigger-menu" class="menu-icon">
+            <i class="bx bx-menu"></i>
+         </div>
+       
+     
+    </div>
+</header>
+  <!--=============== Mobile Menu ===============-->
+<div id="menu-mobile-container" class="">
+    <div class="dark-part"></div>
+    <nav class="menu mobile" id="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+     </nav>
+</div>
+
+<main>
+     <!--=============== Hero ===============-->
+     <section id="home" class="section container">
+        <div class="img">
+            <img src="./assets/img/slider-img.png" alt=""/>
+        </div>
+        <div class="description">
+                <p class="top-title">Amazing Creative Team</p>
+        </div>
+     </section>
+</main>
+<!--===== GSAP =====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+ <!--=============== js ===============-->
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
