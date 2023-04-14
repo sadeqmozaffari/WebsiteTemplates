@@ -1,4 +1,4 @@
-# HTML-CSS-JavaScript-DesignWebsites
+# Design Websites
 websites
 
 ## blog
